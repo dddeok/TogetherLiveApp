@@ -1,3 +1,1 @@
 # TogetherLiveApp
-
-# Start TogetherLiveApp 
