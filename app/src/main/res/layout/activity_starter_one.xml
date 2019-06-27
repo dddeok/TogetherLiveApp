@@ -4,14 +4,36 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="bottom"
     android:background="#ffffff">
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Page 1"
+        android:layout_height="wrap_content"
+        android:text="자취생활"
+        android:fontFamily="@font/applesdgothicneo_l"
         android:textColor="#707070"
-        android:textSize="50dp"
-        android:gravity="center"/>
+        android:textSize="45dp"
+        android:layout_marginLeft="34dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="한 푼이라도"
+        android:fontFamily="@font/applesdgothicneo_l"
+        android:textColor="#707070"
+        android:textSize="45dp"
+        android:layout_marginLeft="34dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="아껴야죠!"
+        android:fontFamily="@font/applesdgothicneo_l"
+        android:textColor="#707070"
+        android:textSize="45dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginBottom="55dp"
+        />
 
 </LinearLayout>

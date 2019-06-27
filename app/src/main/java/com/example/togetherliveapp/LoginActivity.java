@@ -15,7 +15,9 @@ public class LoginActivity extends Activity {
 
 
     Button login_btn;
-    Button signup_btn;
+    Button sign_up_btn;
+    EditText edit_id;
+    EditText edit_pasword;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,8 +34,23 @@ public class LoginActivity extends Activity {
             }
         });
 
+        edit_id = (EditText)findViewById(R.id.edit_id);
+        edit_id.setOnFocusChangeListener(new View.OnFocusChangeListener(){
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                if(hasFocus)
+                    edit_id.setHint("");
+            }
+        });
+
+        edit_pasword = (EditText)findViewById(R.id.edit_password);
+        edit_pasword.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                if(hasFocus)
+                    edit_pasword.setHint("");
+            }
+        });
+
     }
-
-
-
 }
