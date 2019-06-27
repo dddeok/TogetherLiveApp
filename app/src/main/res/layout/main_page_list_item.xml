@@ -75,7 +75,8 @@
                         android:layout_weight="0.5">
                         <ImageView
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent" />
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ic_heart" />
                     </LinearLayout>
                 </LinearLayout>
                 <LinearLayout
@@ -132,7 +133,8 @@
                         android:layout_weight="0.5">
                         <ImageView
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent" />
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ic_heart"/>
                     </LinearLayout>
                 </LinearLayout>
                 <LinearLayout
@@ -195,7 +197,8 @@
                         android:layout_weight="0.5">
                         <ImageView
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent" />
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ic_heart"/>
                     </LinearLayout>
                 </LinearLayout>
                 <LinearLayout
@@ -218,12 +221,17 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:background="@drawable/edit_text"
+                android:gravity="center"
                 android:layout_weight="1">
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
+                <Button
+                    android:layout_width="64dp"
+                    android:layout_height="24dp"
+                    android:background="#3f9cf3"
+                    android:text="더보기"
+                    android:textColor="#ffffff"
+                    android:textSize="14dp"
+                    android:gravity="center"
                     android:id="@+id/plus_btn"/>
             </LinearLayout>
         </LinearLayout>
