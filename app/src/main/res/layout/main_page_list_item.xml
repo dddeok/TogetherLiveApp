@@ -8,7 +8,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="500dp"
         android:orientation="vertical"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
@@ -20,7 +20,7 @@
             android:text="뉴스 &amp; 이벤트"
             android:textColor="#707070"
             android:textSize="20dp"
-            android:fontFamily="@font/applesdgothicneo_b"
+            android:fontFamily="@font/scdream6"
             android:id="@+id/main_title"/>
         <TextView
             android:layout_width="match_parent"
@@ -28,7 +28,7 @@
             android:text="최근소식과 이벤트를 알려드립니다!"
             android:textColor="#707070"
             android:textSize="12dp"
-            android:fontFamily="@font/applesdgothicneo_l"
+            android:fontFamily="@font/scdream3"
             android:id="@+id/sub_title"/>
 
 
@@ -36,12 +36,15 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
+            android:layout_marginTop="11dp"
+            android:layout_marginBottom="14dp"
             android:layout_weight="1">
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:background="@drawable/edit_text"
                 android:orientation="vertical"
+                android:layout_marginRight="14dp"
                 android:layout_weight="1">
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -67,7 +70,13 @@
                         android:layout_weight="1.5">
                         <TextView
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent" />
+                            android:layout_height="match_parent"
+                            android:text="김리브"
+                            android:textSize="20dp"
+                            android:textColor="#707070"
+                            android:gravity="center"
+                            android:fontFamily="@font/scdream5"
+                            android:id="@+id/info_name1"/>
                     </LinearLayout>
                     <LinearLayout
                         android:layout_width="0dp"
@@ -76,7 +85,8 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:src="@drawable/ic_heart" />
+                            android:src="@drawable/ic_heart"
+                            android:id="@+id/heart_btn1"/>
                     </LinearLayout>
                 </LinearLayout>
                 <LinearLayout
@@ -89,9 +99,11 @@
                         android:layout_marginLeft="10dp"
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="14dp"
+                        android:layout_marginTop="11dp"
                         android:textColor="#707070"
                         android:textSize="12dp"
-                        android:id="@+id/new_first_description"
+                        android:id="@+id/first_description"
+                        android:fontFamily="@font/scdream3"
                         android:text="여러분 계란 한판으로 사면 진짜 싼 거 아시죠... 근데 한판 다 먹기에는 너무 오래걸려서 상할까봐 반정도만..."/>
                 </LinearLayout>
             </LinearLayout>
@@ -100,6 +112,7 @@
                 android:layout_height="match_parent"
                 android:background="@drawable/edit_text"
                 android:orientation="vertical"
+                android:layout_marginRight="14dp"
                 android:layout_weight="1">
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -125,7 +138,13 @@
                         android:layout_weight="1.5">
                         <TextView
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent" />
+                            android:layout_height="match_parent"
+                            android:text="김리브"
+                            android:textSize="20dp"
+                            android:textColor="#707070"
+                            android:gravity="center"
+                            android:fontFamily="@font/scdream5"
+                            android:id="@+id/info_name2"/>
                     </LinearLayout>
                     <LinearLayout
                         android:layout_width="0dp"
@@ -134,7 +153,8 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:src="@drawable/ic_heart"/>
+                            android:src="@drawable/ic_heart"
+                            android:id="@+id/heart_btn2"/>
                     </LinearLayout>
                 </LinearLayout>
                 <LinearLayout
@@ -147,9 +167,11 @@
                         android:layout_marginLeft="10dp"
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="14dp"
+                        android:layout_marginTop="11dp"
                         android:textColor="#707070"
                         android:textSize="12dp"
-                        android:id="@+id/new_second_description"
+                        android:id="@+id/second_description"
+                        android:fontFamily="@font/scdream3"
                         android:text="여러분 계란 한판으로 사면 진짜 싼 거 아시죠... 근데 한판 다 먹기에는 너무 오래걸려서 상할까봐 반정도만..."/>
                 </LinearLayout>
             </LinearLayout>
@@ -158,12 +180,14 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
+            android:layout_marginBottom="20dp"
             android:layout_weight="1">
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:background="@drawable/edit_text"
                 android:orientation="vertical"
+                android:layout_marginRight="14dp"
                 android:layout_weight="1">
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -189,7 +213,13 @@
                         android:layout_weight="1.5">
                         <TextView
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent" />
+                            android:layout_height="match_parent"
+                            android:text="김리브"
+                            android:textSize="20dp"
+                            android:textColor="#707070"
+                            android:gravity="center"
+                            android:fontFamily="@font/scdream5"
+                            android:id="@+id/info_name3"/>
                     </LinearLayout>
                     <LinearLayout
                         android:layout_width="0dp"
@@ -198,7 +228,8 @@
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:src="@drawable/ic_heart"/>
+                            android:src="@drawable/ic_heart"
+                            android:id="@+id/heart_btn3"/>
                     </LinearLayout>
                 </LinearLayout>
                 <LinearLayout
@@ -211,9 +242,11 @@
                         android:layout_marginLeft="10dp"
                         android:layout_marginRight="10dp"
                         android:layout_marginBottom="14dp"
+                        android:layout_marginTop="11dp"
                         android:textColor="#707070"
                         android:textSize="12dp"
-                        android:id="@+id/new_third_description"
+                        android:id="@+id/thrid_description"
+                        android:fontFamily="@font/scdream3"
                         android:text="여러분 계란 한판으로 사면 진짜 싼 거 아시죠... 근데 한판 다 먹기에는 너무 오래걸려서 상할까봐 반정도만..."/>
                 </LinearLayout>
             </LinearLayout>
@@ -221,18 +254,20 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:background="@drawable/edit_text"
+                android:orientation="vertical"
+                android:layout_marginRight="14dp"
                 android:gravity="center"
                 android:layout_weight="1">
 
                 <Button
                     android:layout_width="64dp"
-                    android:layout_height="24dp"
-                    android:background="#3f9cf3"
+                    android:layout_height="26dp"
+                    android:gravity="center"
                     android:text="더보기"
                     android:textColor="#ffffff"
                     android:textSize="14dp"
-                    android:gravity="center"
-                    android:id="@+id/plus_btn"/>
+                    android:fontFamily="@font/scdream5"
+                    android:background="@drawable/radius_btn" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

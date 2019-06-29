@@ -11,7 +11,7 @@ import android.support.v7.app.AppCompatActivity;
 public class StarterManageActivity extends AppCompatActivity {
 
     Fragment fragment = new Fragment();
-    int Max_Page = 2;
+    int Max_Page = 5;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,6 +37,15 @@ public class StarterManageActivity extends AppCompatActivity {
                     break;
                 case 1:
                     fragment = new StarterTwoActivity();
+                    break;
+                case 2:
+                    fragment = new StarterThreeActivity();
+                    break;
+                case 3:
+                    fragment = new StarterFourActivity();
+                    break;
+                case 4:
+                    fragment = new StarterFiveActivity();
                     break;
             }
             return fragment;

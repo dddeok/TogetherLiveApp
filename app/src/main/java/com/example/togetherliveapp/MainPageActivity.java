@@ -46,7 +46,4 @@ public class MainPageActivity extends Activity {
         recyclerView.setAdapter(myAdapter);
         recyclerView.setItemAnimator(new DefaultItemAnimator());
     }
-
-
-
 }

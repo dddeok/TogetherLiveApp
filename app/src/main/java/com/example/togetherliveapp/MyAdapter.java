@@ -1,6 +1,9 @@
 package com.example.togetherliveapp;
 
+import android.content.Context;
+import android.content.Intent;
 import android.support.annotation.NonNull;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -16,11 +19,12 @@ public class MyAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     public static class MyViewHolder extends RecyclerView.ViewHolder{
         TextView main_title;
         TextView sub_title;
-
+        View view;
         MyViewHolder(View view){
             super(view);
             main_title = view.findViewById(R.id.main_title);
             sub_title = view.findViewById(R.id.sub_title);
+            this.view = view;
         }
     }
 
@@ -44,7 +48,26 @@ public class MyAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
         System.out.println(i);
         myViewHolder.main_title.setText(mainItemList.get(i).main_title);
         myViewHolder.sub_title.setText(mainItemList.get(i).sub_title);
-
+        if(i==0){
+            ((MyViewHolder) viewHolder).view.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Context context = v.getContext();
+                    Intent intent = new Intent(context, Sub2Activity.class);
+                    context.startActivity(intent);
+                }
+            });
+        }
+        else if(i==1) {
+            ((MyViewHolder) viewHolder).view.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Context context = v.getContext();
+                    Intent intent = new Intent(context, Sub1Activity.class);
+                    context.startActivity(intent);
+                }
+            });
+        }
     }
 
     @Override
