@@ -8,7 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class StarterTwoActivity extends Fragment {
+public class StarterThreeActivity extends Fragment {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,7 +17,7 @@ public class StarterTwoActivity extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = (View)inflater.inflate(R.layout.activity_starter_two, container,false);
+        View view = (View)inflater.inflate(R.layout.activity_starter_three, container,false);
         return  view;
     }
 }

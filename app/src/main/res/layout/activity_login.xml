@@ -16,15 +16,16 @@
             android:gravity="bottom"
             android:layout_marginLeft="17dp"
             android:text="로그인"
-            android:textColor="#707070"
-            android:textSize="25dp" />
+            android:textColor="#3f9cf3"
+            android:textSize="25dp"
+            android:fontFamily="@font/scdream6"/>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginLeft="17dp"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="180dp"
         android:layout_marginRight="16dp"
         android:orientation="vertical"
         android:layout_weight="8">
@@ -33,11 +34,11 @@
             android:id="@+id/edit_id"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:background="@drawable/edit_text"
+            android:background="@drawable/rectangle_text"
             android:gravity="center"
             android:hint="아이디"
             android:textColor="#707070"
-            android:textColorHint="#707070"
+            android:textColorHint="#989898"
             android:textSize="14dp" />
 
         <EditText
@@ -45,20 +46,18 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginTop="16dp"
-            android:background="@drawable/edit_text"
+            android:background="@drawable/rectangle_text"
             android:gravity="center"
             android:hint="비밀번호"
             android:textColor="#707070"
-            android:textColorHint="#707070"
+            android:textColorHint="#989898"
             android:textSize="14dp" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:gravity="center"
-        android:layout_marginRight="17dp"
+        android:gravity="bottom"
         android:layout_weight="2"
         android:orientation="vertical">
 
@@ -66,18 +65,22 @@
             android:id="@+id/login_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#dddddd"
-            android:text="LOGIN"
-            android:textColor="#707070" />
+            android:background="#3f9cf3"
+            android:text="로그인"
+            android:textColor="#ffffff"
+            android:textSize="23dp"
+            android:fontFamily="@font/scdream6"/>
 
         <Button
             android:id="@+id/sign_up_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:background="#dddddd"
-            android:text="SIGN UP"
-            android:textColor="#707070" />
+            android:layout_marginTop="10dp"
+            android:background="#3f9cf3"
+            android:text="회원가입"
+            android:textSize="23dp"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/scdream6"/>
     </LinearLayout>
 
 </LinearLayout>

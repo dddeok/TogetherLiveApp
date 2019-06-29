@@ -4,25 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#ffffff"
+    android:background="#3f9cf3"
     android:gravity="center">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="같이"
-        android:fontFamily="@font/applesdgothicneo_l"
-        android:textColor="#707070"
-        android:textSize="75dp"
-        android:gravity="center"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="살자"
-        android:fontFamily="@font/applesdgothicneo_l"
-        android:textColor="#707070"
-        android:textSize="75dp"
-        android:gravity="center"/>
-
-
+        android:layout_height="match_parent"
+        android:background="@drawable/loding_page">
+    </LinearLayout>
 </LinearLayout>
